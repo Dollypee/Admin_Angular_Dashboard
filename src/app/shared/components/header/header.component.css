@@ -1,0 +1,5 @@
+header{
+  height: 50px;
+  position: fixed;
+  width: calc(100% - 275px);
+}

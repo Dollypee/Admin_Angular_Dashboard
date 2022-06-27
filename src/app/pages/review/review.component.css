@@ -1,0 +1,27 @@
+.bg-home{
+  background: #F2F2F2;
+  color: #00678D;
+}
+.bg-customer-update{
+  background: #00678D;
+  color: #ffffff;
+}
+.welcome-text{
+  color: #00678D;
+  font-size: 24px;
+  font-weight: 300;
+}
+.welcome{
+  font-weight: 400;
+}
+.review-text{
+  color: #00678D;
+  font-weight: 400;
+  font-size: 18px;
+}
+.btn-search{
+  background: #57C1BB;
+  color: #ffffff;
+  margin-top: 2em;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+
+  <mat-nav-list class="mx-2">
+    <h2 matSubheader class="mt-2">Fx Documentation Portal</h2>
+    <a mat-list-item routerLink="/dashboard" routerLinkActive="list-item-active shadow-lg border-green">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">equalizer</mat-icon> Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/review">
+        <!-- <mat-icon>Review</mat-icon> Review -->
+        <img src="{{imageSrc}}" alt="{{imageAlt}}"> Review
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/partners">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">group</mat-icon> Partners
+        
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/rates">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">bar_chart</mat-icon> Rates
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/fees">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">local_atm</mat-icon> Fees
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/user_management">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">brightness_low</mat-icon> User Management
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active shadow-lg border-green" routerLink="/approval_queue">
+        <mat-icon [ngStyle]="{'color':'#C1C8D8'}">check_box_outline</mat-icon> Approval Queue
+    </a>
+    
+</mat-nav-list>
+

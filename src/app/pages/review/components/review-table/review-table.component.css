@@ -1,0 +1,46 @@
+table{
+  width: 100%;
+
+}
+
+.mat-table{
+  border-collapse: separate;
+  border-spacing: 0 15px ;
+}
+.text-head{
+  color: #00678D;
+  font-weight: 700;
+  font-size: 16px;
+}
+.sn{
+  color: #084068;
+  font-weight: 700;
+}
+.mat-row{
+  background: #f3f3f3;
+}
+.mat-header-cell, .mat-cell{
+  border: none;
+}
+.mat-header-row{
+  height: 30px;
+}
+.trans-type{
+  color: #090A0A;
+  font-weight: 700;
+}
+.bg-approved{
+  background:  #C5E7E6;
+  color: #292B2B;
+}
+.bg-pending{
+  background: #EBE5BB;
+  color: #292B2B;
+}
+.bg-declined{
+  background: #F7D2C7;
+  color: #292B2B;
+}
+.btn-green{
+  background: #00678D;
+}
